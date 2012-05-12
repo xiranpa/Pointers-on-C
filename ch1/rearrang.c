@@ -12,7 +12,7 @@ int main(void)
 	int n_columns;	/* # of columns to process */
 	int columns[MAX_COLS];	/* the columns to process */
 	char input[MAX_INPUT];	/* array for input line */
-	char output[MAX_INPUT] /* array for output line */
+	char output[MAX_INPUT]; /* array for output line */
 
 	n_columns = read_column_numbers(columns, MAX_COLS);
 
